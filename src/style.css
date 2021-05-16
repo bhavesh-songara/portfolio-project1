@@ -1,0 +1,185 @@
+/* Google Fonts Imported  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252525;
+  color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+}
+
+/* User Section  */
+
+.user-section {
+  background-color: #333333;
+  max-height: 752px;
+  box-shadow: 0px 20px 40px 0px #1e1e1e1a;
+  padding: 2rem 0.5rem 1rem 1rem;
+}
+
+.user-detail > h4 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  color: #f8835b;
+  margin: 4px 0;
+}
+
+.user-detail > h6,
+.user-contact > address > h6 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 4px 0;
+}
+
+.user-detail > p {
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0.75rem 0;
+}
+
+.user-contact > h4 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8835b;
+  margin: 1rem 0;
+}
+
+.user-social-icon > i {
+  font-size: 26px;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.user-btn > button, .btn-container > button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0.5rem 1.75rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.user-btn > button:nth-of-type(1), .btn-container > button {
+  color: #f8835b;
+  background-color: #333333;
+  border: 1px solid #f8835b;
+}
+
+.user-btn > button:nth-of-type(2) {
+  color: #f2f2f2;
+  background-color: #f8835b;
+  border: none;
+}
+
+.user-btn > button:hover, .btn-container > button:hover {
+  color: #f2f2f2;
+  background-color: #f8835b;
+  border: none;
+}
+/* Space Between  */
+.space-btw {
+  margin: 0 -1rem;
+}
+/* User Exapnd Detail Section  */
+.user-expand-detail {
+  background-color: #333333;
+  box-shadow: 0px 20px 40px 0px #1e1e1e1a;
+  padding: 2rem 0.5rem 1rem 2rem;
+}
+
+.user-detail-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f8835b;
+  margin: 20px 0;
+}
+
+.user-work-experience > div > h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px 0;
+}
+
+.user-work-experience > div > h6 > span {
+  font-weight: lighter;
+}
+
+.user-work-experience > div > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.user-education > div > h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px 0;
+}
+
+.user-education > div > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.user-skill > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 320px;
+}
+
+.user-skill > div > h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px 0;
+}
+
+.user-skill-icon-container > i {
+  color: #f8835b;
+}
+
+.user-article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.user-article > section > h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px 0;
+}
+
+.user-article > section > img {
+  margin: 16px 0;
+}
+
+.user-article > section > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 8px 0;
+}
+
