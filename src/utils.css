@@ -1,0 +1,74 @@
+/* Utilities Classes  */
+
+.bold {
+  font-weight: bold;
+}
+
+.font-12 {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.font-16 {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-20 {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.primary {
+  color: #f8835b;
+}
+
+.mtb-4 {
+  margin: 4px 0;
+}
+
+.mtb-8 {
+  margin: 8px 0;
+}
+
+.mtb-12 {
+  margin: 12px 0;
+}
+
+.mtb-16 {
+  margin: 16px 0;
+}
+
+.mtb-20 {
+  margin: 20px 0;
+}
+
+.my-btn {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0.5rem 1.75rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.active-btn {
+  color: #f2f2f2;
+  background-color: #f8835b;
+  border: none;
+}
+
+.btn1 {
+  color: #f8835b;
+  background-color: #333333;
+  border: 1px solid #f8835b;
+}
+
+.btn1:hover {
+  color: #f2f2f2;
+  background-color: #f8835b;
+  border: none;
+}
